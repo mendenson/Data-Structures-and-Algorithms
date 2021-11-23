@@ -87,3 +87,25 @@ So, every insertion into a set _first requires a search_.
 Insertion into the end of a set will take up to N + 1 steps for N elements. This is because there are N steps of search to ensure that the value doesn’t already exist within the set, and then one step for the actual insertion. Contrast this with the regular array, in which such an insertion takes a grand total of one step.
 
 In the worst-case scenario, where we’re inserting a value at the beginning of a set, the computer needs to search N cells to ensure that the set doesn’t already contain that value, another N steps to shift all the data to the right, and another final step to insert the new value. That’s a total of 2N + 1 steps. Contrast this to insertion into the beginning of a regular array, which only takes N + 1 steps.
+
+# Array examples using Python 3
+- Basic Example and access individual elements through indexes
+- Insert value in an array using insert() method
+- Extend python array using extend() method
+- Remove any array elelment using remove() method
+- Remove last array element using pop() method
+
+# Set Examples using Python 3
+- Start example
+- Modifying a set
+- Removing elements from a set
+- Set Union
+- Set Intersection
+- Set Difference
+- Set Symmetric Difference
+- Set Membership Test
+
+# References
+- WENGROW, Jay. [A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second/dp/1680507222/ref=sr_1_1?crid=ACD0HCKZKRG2&keywords=a+common+sense+guide+to+data+structures+and+algorithms&qid=1637177261&qsid=141-3457049-6381441&sprefix=a+common%2Caps%2C221&sr=8-1&sres=1680507222%2C1680502441%2CB093N93PFD%2C1617295485%2CB01D24NAL6%2C1492043451%2C0984782850%2C0262033844%2C1789801214%2C1118771338%2C1449364934%2C195120400X%2C1789537177%2CB07N3SC7W2%2CB09L37B2Z7%2CB084RFJFZ9&srpt=ABIS_BOOK), page 01-19.
+- The Geek Stuff. [15 Python Array Examples – Declare, Append, Index, Remove, Count](https://www.thegeekstuff.com/2013/08/python-array/).
+- Programiz. [Python Sets](https://www.programiz.com/python-programming/set).
