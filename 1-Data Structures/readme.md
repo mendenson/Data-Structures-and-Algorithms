@@ -1,4 +1,4 @@
-[Back to Main](https://github.com/mendenson/Data_Structures-Algorithms)s
+### [Back to Main](https://github.com/mendenson/Data_Structures-Algorithms)
 
 # Data Structures
 **Data** is a broad term that refers to all types of information, down to the most basic numbers and strings.
