@@ -1,0 +1,11 @@
+# Intersection is performed using & operator. 
+# Same can be accomplished using the intersection() method.
+
+# Intersection of sets
+# initialize A and B
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+
+# use & operator
+# Output: {4, 5}
+print(A & B)
