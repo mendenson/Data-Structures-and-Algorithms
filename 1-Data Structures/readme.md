@@ -1,3 +1,5 @@
+[Back to Main](https://github.com/mendenson/Data_Structures-Algorithms)s
+
 # Data Structures
 **Data** is a broad term that refers to all types of information, down to the most basic numbers and strings.
 
@@ -89,21 +91,21 @@ Insertion into the end of a set will take up to N + 1 steps for N elements. This
 In the worst-case scenario, where we’re inserting a value at the beginning of a set, the computer needs to search N cells to ensure that the set doesn’t already contain that value, another N steps to shift all the data to the right, and another final step to insert the new value. That’s a total of 2N + 1 steps. Contrast this to insertion into the beginning of a regular array, which only takes N + 1 steps.
 
 # Array examples using Python 3
-- Basic Example and access individual elements through indexes
-- Insert value in an array using insert() method
-- Extend python array using extend() method
-- Remove any array elelment using remove() method
-- Remove last array element using pop() method
+- [Basic Example and access individual elements through indexes](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/intro_array.py)
+- [Insert value in an array using insert() method](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/insert_value_array.py)
+- [Extend python array using extend() method](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/extend_array.py)
+- [Remove any array elelment using remove() method](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/remove_array.py)
+- [Remove last array element using pop() method](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/remove_last.py)
 
 # Set Examples using Python 3
-- Start example
-- Modifying a set
-- Removing elements from a set
-- Set Union
-- Set Intersection
-- Set Difference
-- Set Symmetric Difference
-- Set Membership Test
+- [Start example](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_start.py)
+- [Modifying a set](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_modify.py)
+- [Removing elements from a set](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_remove.py)
+- [Set Union](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_union.py)
+- [Set Intersection](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_intersection.py)
+- [Set Difference](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_difference.py)
+- [Set Symmetric Difference](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_symDif.py)
+- [Set Membership Test](https://github.com/mendenson/Data_Structures-Algorithms/blob/main/1-Data%20Structures/Example%20code/set_member.py)
 
 # References
 - WENGROW, Jay. [A Common-Sense Guide to Data Structures and Algorithms](https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second/dp/1680507222/ref=sr_1_1?crid=ACD0HCKZKRG2&keywords=a+common+sense+guide+to+data+structures+and+algorithms&qid=1637177261&qsid=141-3457049-6381441&sprefix=a+common%2Caps%2C221&sr=8-1&sres=1680507222%2C1680502441%2CB093N93PFD%2C1617295485%2CB01D24NAL6%2C1492043451%2C0984782850%2C0262033844%2C1789801214%2C1118771338%2C1449364934%2C195120400X%2C1789537177%2CB07N3SC7W2%2CB09L37B2Z7%2CB084RFJFZ9&srpt=ABIS_BOOK), page 01-19.
