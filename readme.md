@@ -6,5 +6,5 @@ All theoretical part is being based on Jay Wengrow's book [_"A Common-Sense Guid
 I hope you like the content presented and continue to follow the entire study process.
 
 ## Contents
-- [Data Structures](https://github.com/mendenson/Data_Structures-Algorithms/tree/main/1-Data%20Structures)
-- [Algorithms](https://github.com/mendenson/Data_Structures-Algorithms/tree/main/2-Algorithm)
+- ### [Data Structures](https://github.com/mendenson/Data_Structures-Algorithms/tree/main/1-Data%20Structures)
+- ### [Algorithms](https://github.com/mendenson/Data_Structures-Algorithms/tree/main/2-Algorithm)
