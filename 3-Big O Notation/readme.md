@@ -66,13 +66,13 @@ Said simply: _O(log N) means the algorithm takes as many steps as it takes to
 keep halving the data elements until we remain with 1_.
 
 ## Practical Examples
-- ### [Example 1]()
-- ### [Example 2]()
-- ### [Example 3]()
-- ### [Example 4]()
-- ### [Example 5]()
-- ### [Example 6]()
-- ### [Example 7]()
+- ### [Example 1](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example01.py)
+- ### [Example 2](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example02.py)
+- ### [Example 3](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example03.cs)
+- ### [Example 4](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example04.cs)
+- ### [Example 5](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example05.cs)
+- ### [Example 6](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example06.cs)
+- ### [Example 7](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example07.cs)
 
 ## Speeding Up Your Code with Big O
 With Big O, you also have the opportunity to compare your algorithm to _general algorithms out there in the world_, and you can say to yourself, “Is this a fast or slow algorithm as far as algorithms generally go?”
@@ -89,7 +89,7 @@ Bubble Sort is a basic sorting algorithm and follows these steps:
 4. Repeat Steps 1 through 3 until we reach the end of the array, or if we reach the values that have already been sorted. (This will make more sense in the walk-through that follows.) At this point, we have completed our first pass-through of the array. That is, we “passed through” the array by pointing to each of its values until we reached the end
 5. We then move the two pointers back to the first two values of the array, and execute another pass-through of the array by running Steps 1 through 4 again. We keep on executing these pass-throughs until we have a passthrough in which we did not perform any swaps. When this happens, it means our array is fully sorted and our work is done
 
-### [Code Implementation in Python: Bubble Sort]()
+### [Code Implementation in Python: Bubble Sort](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/bubblesort.py)
 
 ### The Efficiency of Bubble Sort
 The Bubble Sort algorithm contains two significant kinds of steps:
