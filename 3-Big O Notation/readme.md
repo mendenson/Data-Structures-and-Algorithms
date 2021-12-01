@@ -73,3 +73,43 @@ keep halving the data elements until we remain with 1_.
 - ### [Example 5]()
 - ### [Example 6]()
 - ### [Example 7]()
+
+## Speeding Up Your Code with Big O
+With Big O, you also have the opportunity to compare your algorithm to _general algorithms out there in the world_, and you can say to yourself, “Is this a fast or slow algorithm as far as algorithms generally go?”
+
+If you find that Big O labels your algorithm as a “slow” one, you can now take a step back and try to figure out if there’s a way to optimize it by trying to get it to fall under a faster category of Big O. This may not always be possible, of course, but it’s certainly worth thinking about.
+
+### Bubble Sort
+Sorting algorithms have been the subject of extensive research in computer science, and tens of such algorithms have been developed over the years. They all solve the following problem: _Given an array of unsorted values, how can we sort them so that they end up in ascending order?_
+
+Bubble Sort is a basic sorting algorithm and follows these steps:
+1. Point to two consecutive values in the array. (Initially, we start by pointing to the array’s first two values.) Compare the first item with the second one
+2. If the two items are out of order (in other words, the left value is greater than the right value), swap them (if they already happen to be in the correct order, do nothing for this step)
+3. Move the “pointers” one cell to the right
+4. Repeat Steps 1 through 3 until we reach the end of the array, or if we reach the values that have already been sorted. (This will make more sense in the walk-through that follows.) At this point, we have completed our first pass-through of the array. That is, we “passed through” the array by pointing to each of its values until we reached the end
+5. We then move the two pointers back to the first two values of the array, and execute another pass-through of the array by running Steps 1 through 4 again. We keep on executing these pass-throughs until we have a passthrough in which we did not perform any swaps. When this happens, it means our array is fully sorted and our work is done
+
+### [Code Implementation in Python: Bubble Sort]()
+
+### The Efficiency of Bubble Sort
+The Bubble Sort algorithm contains two significant kinds of steps:
+- _Comparisons_: two numbers are compared with one another to determine
+which is greater.
+- _Swaps_: two numbers are swapped with one another in order to sort them.
+
+Notice the inefficiency here. As the number of elements increases, the number of steps grows exponentially. We can see this clearly in the following table:
+
+![image](https://user-images.githubusercontent.com/60521016/144329096-bbeb44e6-585c-4f28-9fcd-5157d7919d10.png)
+
+If you look at the growth of steps as N increases, you’ll see that it’s growing by approximately N<sup>2</sup>. Take a look at the following table:
+![image](https://user-images.githubusercontent.com/60521016/144329230-7a002c43-5f97-40b9-940d-2414612c23dc.png)
+
+Because for N values, Bubble Sort takes N<sup>2</sup> steps, in Big O, we say that Bubble Sort has an efficiency of O(N<sup>2</sup>).
+
+O(N<sup>2</sup>) is considered to be a relatively inefficient algorithm, since as the data increases, the steps increase dramatically. Look at this graph, which compares O(N<sup>2</sup>) against the faster O(N):
+
+![image](https://user-images.githubusercontent.com/60521016/144330092-9de9cc44-5ca6-4b0a-9101-51892146a8a3.png)
+
+Note how O(N<sup>2</sup>) curves sharply upward in terms of number of steps as the data grows. Compare this with O(N), which plots along a simple, diagonal line.
+
+One last note: O(N<sup>2</sup>) is also referred to as _quadratic time_.
