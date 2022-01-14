@@ -115,3 +115,5 @@ O(N<sup>2</sup>) is considered to be a relatively inefficient algorithm, since a
 Note how O(N<sup>2</sup>) curves sharply upward in terms of number of steps as the data grows. Compare this with O(N), which plots along a simple, diagonal line.
 
 One last note: O(N<sup>2</sup>) is also referred to as _quadratic time_.
+
+### A Quadratic Problem
