@@ -70,11 +70,12 @@ keep halving the data elements until we remain with 1_.
 ## Practical Examples
 - ### [Example 1](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example01.py)
 - ### [Example 2](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example02.py)
-- ### [Example 3](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example03.cs)
-- ### [Example 4](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example04.cs)
-- ### [Example 5](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example05.cs)
-- ### [Example 6](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example06.cs)
-- ### [Example 7](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example07.cs)
+- ### [Example 3](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example03.js)
+- ### [Example 4](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example04.js)
+- ### [Example 5](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example05.js)
+- ### [Example 6](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example06.js)
+- ### [Example 7](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example07.js)
+- ### [Example 8](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example08.js)
 
 ## Speeding Up Your Code with Big O
 With Big O, you also have the opportunity to compare your algorithm to _general algorithms out there in the world_, and you can say to yourself, “Is this a fast or slow algorithm as far as algorithms generally go?”
