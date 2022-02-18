@@ -118,3 +118,40 @@ Note how O(N<sup>2</sup>) curves sharply upward in terms of number of steps as t
 One last note: O(N<sup>2</sup>) is also referred to as _quadratic time_.
 
 ### A Quadratic Problem
+Here's a practical example of where we can replace a slow O(N<sup>2</sup>) algorithm with a speedy O(N) one.
+
+For example, the array [1, 5, 3, 9, 1, 4] has two instances of the number 1, so we'd return _true_ to indicate that the array has a case of duplicate numbers.
+
+One of the first approaches that may come to mind is the use of nested loops, as follows:
+
+### [Example 09](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example09.js)
+
+In this function, we iterate through each value of the array using the variable i. As we focus on each value in i, we then run a _second_ loop thet looks through all the values in the array - using j - and checks if the values at positions i and j are the same. If they are, it means we've encountered duplicate values and we return _true_. If we get through all of the looping and we haven't encountered any duplicates, we return _false_, since we know that there are no duplicates in the array.
+
+While this certainly works, is it efficient? Remember that Big O express how many staps the algorithm takes relative to N data values. TO apply this ti our situation, we'd ask ourselves: for N values in the array provided to our _hasDUplicateValue_ function, how many steps would or algorithm take in a worst-case scenario?
+
+To answer the proceding question, we need to analyze what steps our function takes, as well as what the worst-case scenario would be.
+
+The preceding function has one type of step, namely _comparison_. It repeatedly copares array[i] and array[j] to see if they are equal and therefor represent a duplicate pair. In a worst-case scenario, the array contains no duplicates, which would force our code to complete all of the loops and exhaust every possible comparison before returning _false_.
+
+Based on this, we can conclude that for N values in the array, our function would perform N<sup>2</sup> comparisons. This is because we perform an outer loop that must iterate N times to get through the entire array, and for _each iteration_, we must iterate _another N times_ with our inner loop. That's N steps * N steps, which is N<sup>2</sup> steps, leaving us with an algorithm of O(N<sup>2</sup>).
+
+We can actually prove that our function takes N<sup>2</sup> staps by adding some code to our function that tracks the algorithm's number os steps:
+
+### [Example 10](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example10.js)
+
+### A Linear Solution
+Following is another implementation of the _hasDuplicateValue_ function that doesn't rely on nested loops. It's a bit clever, so let's first look at how it works and then we'll see if it's any more efficient than our first implementation.
+
+### [Example 11](https://github.com/mendenson/Data-Structures-and-Algorithms/blob/Big-O-Notation/3-Big%20O%20Notation/Example%20Code/example11.js)
+
+We know that O(N) is much faster than O(N<sup>2</sup>), by using this second approach, we've optimized our _hasDuplicateValue_ function significantly, This is a _huge_ speed boost.
+
+(There is actually one disadvantage with this new implementation, namely that this approach will consume more memory than the first approach.)
+
+It's clear that having a solid understanding of Big O Notation can enable you to identify slow code and select the faster of two competing algorithms.
+
+However, there are situations in which Big O Notation will have us believe that two algorithms have the same speed, while one is actually faster.
+
+## The Soul of Big O
+
